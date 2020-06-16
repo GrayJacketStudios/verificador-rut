@@ -1,6 +1,6 @@
 {
     "name": "verificador-rut",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "description": "Verificador de RUT para personas y empresas de Chile, compara u obtiene el digito verificador",
     "keywords": [
         "rut",

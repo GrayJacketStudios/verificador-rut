@@ -16,13 +16,18 @@ Para instalar el modulo simplemente ejecuta desde una terminal:
 `npm install verificador-rut -s`
 
 ## Ejemplos
-
+Proyecto Node.js
 ```javascript
 const verificador = require('verificador-rut');
-
+...
 if(verificador("123.456.789-5")){...}
 ```
-
+Proyecto Reactjs
+```javascript
+import verificador  from 'verificador-rut'
+...
+if(verificador("123.456.789-5")){...}
+```
 ## Valores & parametros permitidos
 la funcion `verificador` acepta dos parametros, siendo el segundo opcional.
 

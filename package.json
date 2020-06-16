@@ -22,6 +22,9 @@
         "email": "grayjacketstudios@gmail.com"
     },
     "license": "MIT",
+    "scripts": {
+        "test": "mocha"
+    },
     "author": {
         "name": "Sebastián Cristi",
         "email": "s.cristicastillo@gmail.com"

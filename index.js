@@ -8,6 +8,7 @@
 //verificador("18622178")
 module.exports = function verificador(string, ver1 = "") {
     ver1 = ver1.toString().toLowerCase()
+    string = string.toString()
     let rut = ''
     if(string === null || string === undefined){
         return false
@@ -15,6 +16,8 @@ module.exports = function verificador(string, ver1 = "") {
     if(ver1 === ""){//Seguimos en caso de que el verificador esté en el string.
         rut = simpleRut(string);//Quitamos los puntos si hay alguno.
         rut = rut.split("-");
+        if(isNumber(rut[0]) === false)
+            return false;
         if(rut[1] === undefined)
             return calculaVerificador(rut[0])
         ver1 = rut[1]
@@ -22,10 +25,16 @@ module.exports = function verificador(string, ver1 = "") {
     }
     else{
         rut = simpleRut(string)
+        if(isNumber(rut) === false)
+            return false
     }
 
     return (ver1 === calculaVerificador(rut))
 
+}
+
+function isNumber(string){
+    return /^\d*$/.test(string)
 }
 
 function simpleRut(str){

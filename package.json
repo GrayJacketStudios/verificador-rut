@@ -1,0 +1,20 @@
+{
+    "name": "verificador-rut",
+    "version": "1.0.0",
+    "description": "Verificador de RUT para personas y empresas de Chile",
+    "keywords": ["rut","run","verificar","verificador","comprobador","comprobar","cedula","chile","personas","empresas"],
+    "bugs": {
+        "url": "https://github.com/GrayJacketStudios/verificador-rut/issues",
+        "email": "grayjacketstudios@gmail.com"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Sebastián Cristi",
+        "email": "s.cristicastillo@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GrayJacketStudios/verificador-rut/"
+    },
+    "main": "index.js"
+}

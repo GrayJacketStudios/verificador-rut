@@ -8,7 +8,7 @@
 
 Modulo para NPM con el cual podras verificar si un rut es correcto, enviando un digito a comparar, devolviendo true si corresponde y false si no.
 
-Si no se especifica el digito verificador, el que corresponderia es devuelto.
+Si **no se especifica el digito verificador**, el que corresponderia es **devuelto**.
 
 ## instalación
 Para instalar el modulo simplemente ejecuta desde una terminal:
@@ -36,11 +36,13 @@ la funcion `verificador` acepta dos parametros, siendo el segundo opcional.
 Se puede utilizar de las siguientes formas:
 
 ```javascript
-verificador("12345678-k")
-verificador("12.345.678-K")
-verificador("12345678")
-verificador("12345678","k")
-verificador("12.345.678","k")
-verificador("12.345.678",8)
+verificador("12345678-k")//<= devuelve true o false
+verificador("12.345.678-K")//<= devuelve true o false
+verificador("12345678","k")//<= devuelve true o false
+verificador("12.345.678","k")//<= devuelve true o false
+verificador("12.345.678",8)//<= devuelve true o false
+
+verificador("12345678")//<= devuelve el digito verificador
+verificador("12.345.678")//<= devuelve el digito verificador
 
 ```

@@ -53,8 +53,7 @@ function calculaVerificador(rut){
     rut.map((dig,i) => {
         suma += (dig*multiplicador[i])
     })
-    let res1 = ((suma/11)+"").split(".")
-    let res2 = Number(res1[0])*11
+    let res2 = Number((((suma/11)+"").split("."))[0])*11
     let res3 = suma-res2
     switch(11-res3){
         case 11:

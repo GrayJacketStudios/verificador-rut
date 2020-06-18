@@ -5,6 +5,7 @@
 [![npm](https://img.shields.io/npm/v/verificador-rut)](https://github.com/GrayJacketStudios/verificador-rut)
 [![GitHub license](https://img.shields.io/github/license/GrayJacketStudios/verificador-rut)](https://github.com/GrayJacketStudios/verificador-rut)
 [![npm bundle size(minified)](https://img.shields.io/bundlephobia/min/verificador-rut)](https://github.com/GrayJacketStudios/verificador-rut)
+[![GitHub stars](https://img.shields.io/github/stars/GrayJacketStudios/verificador-rut)](https://github.com/GrayJacketStudios/verificador-rut/stargazers)
 
 Modulo para NPM con el cual podras verificar si un rut es correcto, enviando un digito a comparar, devolviendo true si corresponde y false si no.
 

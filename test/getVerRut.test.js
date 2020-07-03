@@ -1,5 +1,5 @@
 const assert = require('assert');
-const verificador = require("../.")
+const verificador = require("..")
 
 describe('Validar digito verificador', () => {
     it('Prueba con puntos y guion', () => {

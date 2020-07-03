@@ -14,8 +14,7 @@ module.exports = function verificador(string, ver1 = "") {
         return false
     }
     if(ver1 === ""){//Seguimos en caso de que el verificador esté en el string.
-        rut = simpleRut(string);//Quitamos los puntos si hay alguno.
-        rut = rut.split("-");
+        rut = (simpleRut(string)).split("-");//Quitamos los puntos si hay alguno y el guion
         if(isNumber(rut[0]) === false)
             return false;
         if(rut[1] === undefined)

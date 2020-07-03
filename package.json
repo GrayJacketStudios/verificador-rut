@@ -1,5 +1,5 @@
 {
-    "name": "@grayjacketstudios/verificador-rut",
+    "name": "@grayjacketstudios/verificadorrut",
     "version": "2.2.1",
     "description": "Verificador de RUT para personas y empresas de Chile, compara u obtiene el digito verificador",
     "keywords": [

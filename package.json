@@ -1,5 +1,5 @@
 {
-    "name": "verificador-rut",
+    "name": "@grayjacketstudios/verificador-rut",
     "version": "2.2.1",
     "description": "Verificador de RUT para personas y empresas de Chile, compara u obtiene el digito verificador",
     "keywords": [
@@ -33,5 +33,7 @@
         "type": "git",
         "url": "https://github.com/GrayJacketStudios/verificador-rut/"
     },
-    "main": "index.js"
+    "main": "index.js",
+    "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
+
